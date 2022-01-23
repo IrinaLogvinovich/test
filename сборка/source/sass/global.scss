@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  outline: none;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+.page-body_overflow {
+    overflow: hidden;
+}
+
+a {
+  color: inherit;
+  font-family: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

@@ -1,0 +1,20 @@
+/* Плагины */
+@import "plugins/normalize";
+@import "plugins/swiper";
+
+/* Общие */
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "global";
+
+/* Блоки */
+@import "blocks/header";
+@import "blocks/container";
+@import "blocks/footer";
+@import "blocks/slider";
+@import "blocks/logo";
+@import "blocks/social-list";
+@import "blocks/slide";
+@import "blocks/popup";

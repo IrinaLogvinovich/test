@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "NoirPro";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/NoirPro-Light.woff2") format("woff2"),
+  url("../fonts/NoirPro-Light.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NoirPro";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/NoirPro-BoldItalic.woff2") format("woff2"),
+  url("../fonts/NoirPro-BoldItalic.woff") format("woff");
+  font-display: swap;
+}
+

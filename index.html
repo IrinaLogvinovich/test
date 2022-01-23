@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>BMW Landing</title>
+</head>
+
+<body class="page-body">
+  <section class="slider">
+    <a href="#" class="slider__logo logo">
+      <img src="img/logo.svg" alt="logotype BMW">
+    </a>
+
+    <div class="slider__container">
+      <div class="slider__content swiper slider__content_type_front">
+        <ul class="slider__list swiper-wrapper"></ul>
+        <div class="slider__button-next swiper-button-next"></div>
+        <div class="slider__button-prev swiper-button-prev"></div>
+      </div>
+      <div class="slider__content swiper slider__content_type_back">
+        <ul class="slider__list swiper-wrapper"></ul>
+      </div>
+    </div>
+
+    <ul class="slider__social-list social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="#">
+          <svg class="social-list__image" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#odnokl"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="#">
+          <svg class="social-list__image" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#vk"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="#">
+          <svg class="social-list__image" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <use xlink:href="img/sprite.svg#fb"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <div class="popup">
+    <div class="popup__container">
+      <button class="popup__close-button" type="button"></button>
+      <h2 class="popup__title"> BMW i8</h2>
+      <p class="popup__description">Тут должно быть спасибо. Но это тестовое. Так что читайте про BMW</p>
+      <p class="popup__text">
+        BMW Vision Efficient Dynamics, BMW i8 — автомобиль компании BMW. Концепт-кар был представлен в 2009 году, первый серийный образец — на Франкфуртском автосалоне в сентябре 2013 года BMW Vision Efficient Dynamics представляет собой полноприводное двухдверное купе. Шасси и подвеска сделаны из алюминия, крыша и двери выполнены из поликарбоната. Коэффициент аэродинамического сопротивления 0,26.
+      </p>
+    </div>
+  </div>
+  <template id="info-slide">
+    <li class="slider__item slide swiper-slide">
+      <div class="container slide__container">
+        <div class="slide__corner"></div>
+        <div class="slide__header">
+          <h1 class="slide__title"></h1>
+        </div>
+        <div class="slide__content">
+          <p class="slide__description"></p>
+        </div>
+        <div class="slide__like-block">
+          <button class="slide__like-button" type="button">
+            <svg class="slide__like-button-image" width="39" height="37" viewBox="0 0 39 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use xlink:href="img/sprite.svg#like"></use>
+            </svg>
+          </button>
+          <p class="slide__like-text">like: <span class="slide__like-count"></span></p>
+        </div>
+      </div>
+    </li>
+  </template>
+  <template id="back-slide">
+    <li class="slider__item slide swiper-slide">
+      <img src="#" class="slide__image">
+    </li>
+  </template>
+
+  <script src="js/vendor.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

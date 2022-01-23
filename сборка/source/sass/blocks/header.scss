@@ -1,0 +1,9 @@
+.header {
+  min-height: 150px;
+  background: url("../img/header.svg") no-repeat center bottom;
+  background-size: cover;
+
+  @media(max-width: 600px) {
+    min-height: 70px;
+  }
+}
